@@ -32,9 +32,9 @@ class Instructions extends Component {
       input: ""
     });
   }
-  
+
   create(){
-    store.dispatch({ type: ADD.RECIPE })
+    store.dispatch({ type: ADD_RECIPE })
   }
 
   render() {
